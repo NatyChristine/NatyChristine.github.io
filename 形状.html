@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="jp-JP">
+<html>
+
+<head>
+   <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link href="Formulario.css" rel="stylesheet" type="text/css">
+   <title>形状</title>	
+</head>
+
+<body>
+   <!-- formulario com nome,data de nascimento, telefone e endereço-->
+   
+   <h1><center>形状</center></h1>
+   
+    <fieldset>
+
+   <form>
+   
+	<div class="info">
+    <label for="nome">お名前:</label>
+	<input type="text" minlength=1 placeholder="さゆり" required id="nome">
+	
+	<label for="sobrenome">姓:</label>
+	<input type="text" minlength=1 placeholder="山下" required id="sobrenome"><br>
+	
+	<label for="data_nascimento">誕生日:</label>
+	<input type="date" required id="data_nascimento"><br>
+	
+	<label for="telefone">電話番号:</label>
+	<input type="tel" minlength=10 placeholder="99999-99999" required id="telefone">
+	
+	<label for="casa">住所:</label>
+	<input type="text" placeholder="東京都渋谷区本町2丁目4-7サニーマンション203" required id="casa"><br>
+	</div>
+	
+	<div class="frutas">
+	<label for="frutas_favoritas">好きな果物は？:</label><br>
+	
+	<input class="checkbox" type="checkbox" name="checkbox_1" id="checkbox_1">
+	<label for="checkbox_1">ストロベリー</label><br>
+	<input class="checkbox" type="checkbox" name="checkbox_2" id="checkbox_2">
+	<label for="checkbox_2">りんご</label><br>
+	<input class="checkbox" type="checkbox" name="checkbox_3" id="checkbox_3">
+	<label for="checkbox_3">洋ナシ</label><br>
+	<input class="checkbox" type="checkbox" name="checkbox_4" id="checkbox_4">
+	<label for="checkbox_4">ほうり</label><br>
+	<input class="checkbox" type="checkbox" name="checkbox_5" id="checkbox_5">
+	<label for="checkbox_5">バナナ</label><br>
+	</div>
+	
+	<div class="radio";
+	<label for="radio">好きな時間は？:<br>
+	<input type="radio" name="radio_1" id="radio_1">
+	<label for="radio_1">朝</label><br>
+	<input type="radio" name="radio_2" id="radio_2">
+	<label for="radio_2">日</label><br>
+	<input type="radio" name="radio_3" id="radio_3">
+	<label for="radio_3">夜</label><br>
+	</div>
+	
+   <button type="submit">センド</button>
+   <button type="reset">リセット</reset>
+
+   </form>
+   
+   </fieldset> 
+   
+</body>
+
+<foot>
+
+</foot>
+
+</html>

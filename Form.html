@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+
+<head>
+   <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<link href="Formulario.css" rel="stylesheet" type="text/css">
+   <title>Form</title>	
+</head>
+
+<body>
+   <!-- formulario com nome,data de nascimento, telefone e endereço-->
+   
+   <h1><center>Form</center></h1>
+   
+    <fieldset>
+
+   <form>
+   
+	<div class="info">
+    <label for="nome">Name:</label>
+	<input type="text" minlength=3 placeholder="Ana" required id="nome">
+	
+	<label for="sobrenome">Surname:</label>
+	<input type="text" minlength=3 placeholder="Martins" required id="sobrenome"><br>
+	
+	<label for="data_nascimento">Birthday:</label>
+	<input type="date" required id="data_nascimento"><br>
+	
+	<label for="telefone">Tel:</label>
+	<input type="tel" minlength=9 placeholder="999-9999" required id="telefone">
+	
+	<label for="casa">Adress:</label>
+	<input type="text" placeholder="1313 E Main St, Portage MI" required id="casa"><br>
+	</div>
+	
+	<div class="frutas">
+	<label for="frutas_favoritas">What's your favorite fruits:</label><br>
+	
+	<input class="checkbox" type="checkbox" name="checkbox_1" id="checkbox_1">
+	<label for="checkbox_1">Strawberry</label><br>
+	<input class="checkbox" type="checkbox" name="checkbox_2" id="checkbox_2">
+	<label for="checkbox_2">Apple</label><br>
+	<input class="checkbox" type="checkbox" name="checkbox_3" id="checkbox_3">
+	<label for="checkbox_3">Pear</label><br>
+	<input class="checkbox" type="checkbox" name="checkbox_4" id="checkbox_4">
+	<label for="checkbox_4">Pineapple</label><br>
+	<input class="checkbox" type="checkbox" name="checkbox_5" id="checkbox_5">
+	<label for="checkbox_5">Banana</label><br>
+	</div>
+	
+	<div class="radio";
+	<label for="radio">What time of the day is your favorite?:<br>
+	<input type="radio" name="radio_1" id="radio_1">
+	<label for="radio_1">Morning</label><br>
+	<input type="radio" name="radio_2" id="radio_2">
+	<label for="radio_2">Day</label><br>
+	<input type="radio" name="radio_3" id="radio_3">
+	<label for="radio_3">Night</label><br>
+	</div>
+	
+   <button type="submit">Send</button>
+   <button type="reset">Reset</reset>
+
+   </form>
+   
+   </fieldset> 
+   
+</body>
+
+<foot>
+
+</foot>
+
+</html>
